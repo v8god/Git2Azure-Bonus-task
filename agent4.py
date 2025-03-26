@@ -11,7 +11,7 @@ agent = Agent(
         name = "Agent 2009",
         seed = "4thAgent",
         port = 2009,
-        endpoint = ["http://localhost:2009/submit"],
+        #endpoint = ["http://localhost:2009/submit"],
         mailbox = True
 )
 fund_agent_if_low;{agent.wallet.address()}
